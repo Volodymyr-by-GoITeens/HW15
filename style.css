@@ -1,0 +1,50 @@
+
+.holder {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    height: auto;
+}
+
+.item:nth-child(1) {
+    background-color: #ff0000;
+    order: 1;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+
+.item:nth-child(2) {
+    background-color: #0000ff;
+    order: 4;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.item:nth-child(3) {
+    background-color: #ff00ff;
+    order: 3;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.item:nth-child(4) {
+    background-color: #00ff00;
+    order: 5;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.item:nth-child(5) {
+    background-color: #ffff00;
+    order: 2;
+    flex-grow: 2;
+    align-self: flex-start;
+}
